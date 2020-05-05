@@ -1,8 +1,4 @@
----
-output:
-  word_document: default
-  pdf_document: latex_engine:xelatex
----
+
 # Una breve introducción a diseños de investigación{#studydesign}
 
 >*Consultar al estadístico después de que un experimento ha finalizado es a menudo 
