@@ -1,13 +1,3 @@
-# tex output to ignore from "original"
-original/lsr.ps
-original/lsr.aux
-original/lsr.bbl
-original/lsr.brf
-original/lsr.log
-original/lsr.out
-original/lsr.synctex.gz
-original/lst.toc
-
 # History files
 .Rhistory
 .Rapp.history
