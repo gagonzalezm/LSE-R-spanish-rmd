@@ -1,0 +1,288 @@
+---
+output:
+  pdf_document: default
+  word_document: 
+    keep_md: yes
+    toc: yes
+---
+# ¿Por qué aprendemos Estadísticas?
+
+> "Thou shalt not answer questionnaires  
+Or quizzes upon World Affairs,
+
+> Nor with compliance  
+Take any test. Thou shalt not sit  
+With statisticians nor commit"
+
+> -- W.H. Auden^[The quote comes from Auden's 1946 poem *Under Which Lyre: A Reactionary Tract for the Times*, delivered as part of a commencement address at Harvard University. The history of the poem is kind of interesting: http://harvardmagazine.com/2007/11/a-poets-warning.html]
+
+## En la psicología de las estadísticas{#whywhywhy}
+
+
+Para sorpresa de muchos estudiantes, la estadística es una parte importante de 
+los programas de estudio de Psicología. Para sorpresa de nadie, la estadística 
+es muy raramente la parte *favorita* de estudiar psicología. Después de todo, si 
+te gusta o amas la estadística, muy probablemente te hubieras matriculado para 
+estudiar estadística en vez de psicología. Entonces, no es sorprendente, que una
+gran proporción de estudiantes no estén felices con el hecho de que la psicología
+tiene mucho de estadística.  Desde este punto de vista, pienso que el lugar 
+correcto para empezar a responder algunas de las preguntas más comunes que las 
+personas hacen sobre estadística... 
+
+
+Gran parte de este tema va de la mano con la idea misma de estadística. ¿Qué es?
+¿Para qué está? ¿Y por qué los científicos parecen estar tan increíblemente 
+obsesionados con ésta?  Todas esas son preguntas buenas cuando lo piensas. 
+Vamos a empezar con la última. Como grupo, los científicos parecen estar 
+empecinados extrañamente en hacer análisis estadísticos a todo. De hecho, 
+hacemos análisis estadísticos tan a menudo que olvidamos explicarle a la gente 
+porque lo hacemos. Esto es un tipo de mandato de fe entre los científicos – y 
+especialmente entre científicos sociales- que tus hallazgos no pueden ser
+creíbles hasta que tu hayas hecho algo de estadísticas. Estudiantes de pregrado
+podrían ser perdonados por pensar que estamos totalmente locos, porque nadie se
+toma el tiempo para responder una simple pregunta: 
+
+> ¿Por qué haces estadística? ¿Por qué los científicos no usan simplemente el **sentido común**?
+
+Es una pregunta ingenua en cierta forma, pero la mayoría de las preguntas buenas lo son. Hay un montón de respuestas buenas para esta, pero por mi dinero, pero la mejor respuesta es simplemente una:  No confiamos lo suficiente en nosotros mismos. Nos preocupamos que somos humanos y susceptibles a todos los sesgos, tentaciones y debilidades que los humanos sufren. Mucho de la estadística es, básicamente, una protección. Usar “Sentido común” para evaluar evidencia significa confiar en nuestros instintos viscerales, apoyar en argumentos verbales y usar el poder bruto de la razón humana para llegar a la respuesta correcta. La mayoría de los científicos no piensan que este enfoque funcione probablemente.
+
+De hecho, llegar pensar en esto, para mí suena un montón como una pregunta psicología y desde que trabajo en un departamento de psicología, parece buena idea cavar un poco más profundo aquí. ¿Es realmente plausible que en enfoque desde el “sentido común” es muy confiable? Argumentos verbales son construidos en un lenguaje, y todos los lenguajes tienen sesgos- algunas cosas son más difíciles de decir que otras, y no necesariamente por eso son falsas (ej. La electrodinámica cuántica es una buena teoría, pero difícil de explicar en palabras). Nuestros instintos “viscerales” no son diseñados para resolver problemas científicos. Estos están diseñados para lidiar con inferencias del día a día. Y dado que la evolución biológica es más lenta que el cambio cultural, podríamos decir que estos instintos están diseñados para resolver problemas del día a día de un *mundo diferente* del que ahora habitamos. Más fundamentalmente, razonar concienzudamente requiere que las personas se involucren en una “inducción”, haciendo suposiciones sabias y yendo más allá de la evidencia inmediata de los sentidos para hacer generalizaciones sobre el mundo. Si tú crees que puedes hacer eso sin ser influenciado por varios distractores, bien, yo tengo un puente en Londres y me gustaría vendértelo. Diablos, como la siguiente sección muestra, no podemos siquiera resolver problemas deductivos (unos donde las suposiciones no son requeridas, sin ser influenciados por nuestros sesgos pre-existentes
+
+###  La maldición del sesgo de creencia
+
+Las personas son en su mayoría muy inteligentes. Somos ciertamente más inteligentes que la otras especies con las que compartimos este planeta ( pese a que algunos podrían estar en desacuerdo). Nuestras mentes son cosas tan sorprendentes y parecemos capaces de las más increíbles proezas de pensamiento y razón. Aunque eso no nos hace perfectos. Y entre muchas cosas que los psicólogos han mostrado con los años, es que es realmente difícil para nosotros ser neutrales, evaluar evidencia imparcialmente, y sin estar inclinados por sesgos pre-existentes. Un ejemplo de esto es el efecto del ***sesgo de creencia*** en razonamiento lógico: si tú le pides a una persona evaluar si un razonamiento es lógicamente valido(esto es, la conclusión debería ser correcta si las premisas son verdaderas), nosotros tendemos a estar influenciados por la credibilidad de la conclusión, incluso cuando no deberíamos. Por ejemplo, acá hay un argumento valido donde la conclusión es creíble: 
+
+
+>Todos los cigarrillos son costosos (Premisa 1)\
+>Algunas cosas adictivas no son costosas (Premisa 2)\
+>Por lo tanto, algunas cosas adictivas no son cigarrillos (Conclusión)
+
+Y aquí un argumento válido donde la conclusión no es creíble:
+
+>Todas las cosas adictivas son costosas  (Premisa 1)\
+>Algunos cigarrillos no son costosos (Premisa 2)\
+>Por lo tanto, agunos cigarillos no son adictivos (Conclusión)
+
+La   *estructura* lógica del argumento #2 es idéntica a la estructura del argumento #1, y ellas son ambas válidas. Sin embargo, en el segundo argumento, hay buenas razones para pensar que la premisa 1 es incorrecta, y como resultado es probable que la conclusión también es incorrecta.  Pero eso es totalmente irrelevante al topico en mano; un argumento es deduciblemente valido si la conclusión es una consecuencia lógica de las premisas. Esto es, un argumento válido no tiene que involucrar declaraciones verdaderas...
+
+Pero en la otra mano, aquí hay un argumento inválido que tiene una conclusión creíble:
+
+>Todas las cosas adictivas son costosas (Premisa 1)\
+>Algunos cigarrillos no son costosos (Premisa 2)\
+>Por lo tanto, algunas cosas adictivas no son cigarrillos (Conclusión)
+
+Y finalmente, un argumento invalido con una conclusion increíble:
+
+>Todos los cigarrillos son costosos (Premisa 1)\
+>Algunas cosas adictivas no son costosas (Premisa 2)\
+>Por lo tanto, algunos cigarrillos no son adictivos (Conclusión)
+
+
+
+Ahora, supone que las personas realmente son perfectamente caáces de dejar de lado sus sesgos prexistentes sobre qué es verdadero y qué no lo es, y puramente evaluan un argumento en sus meritos lógicos. Nosotros espererimos que el  100\% de las personas dicen que los argumentos validos son válidos, y el  0\%  de las personas que dijeron que los argumentos inválidos, son validos. Entonces, si tu corres un experimento pareciendo a esto, tú esperarías ver datos como estos.
+
+|                     | conclusión se siente verdadera| conclusión se siente falsa |
+|---------------------|:-----------------------------:|:--------------------------:|
+|argumento es válido  |100% dice "válido"             |100% dice "válido"          |
+|argumento es invalido|0% dice "válido"               |0% say "válido"             |
+
+
+Si los datos psicológicos se ven como estos (o incluso una buena aproximación a esto), podríamos sentir seguridad en solo confiar en nuestros instintos viscerales. Esto es, es perfectamente okay solo dejar a los cientifícos evaluar datos usando su sentido común, y no molestarse con esta cosa estadística turbia. Sin emabargo, ustedes han tomado clases de psicología, y por ahora ustedes saben probablemente a donde va esto.
+
+
+En un estudio clásico, @Evans1983 corrió un experimento luciendo exactamente como esto. Lo que ellos encontraron es que cuando sesgos pre-existentes ( esto es, creencias) estuvieron en acuerdo con la estructura de los datos, todo fue en la manera que tu habrías esperado:
+ 
+|   |                       | conclusión se siente verdadera | conclusión se siente falsa |
+|---|-----------------------|--------------------------------|----------------------------|
+|   | argumento es válido   | 92% dijo "válido"              |                            |                       
+|   | argumento es inválido |                                | 8% dijo "válido"           |
+|   |                       |                                |                            |
+
+No es perfecto, pero es muy bueno. Pero mira lo que pasa cuando tus sentimientos intuitivos sobre la verdad de la conlcusión corre contra la estructura lógica del argumento:
+
+|   |                       | conclusión se siente verdadera | conclusión se siente falsa |
+|---|-----------------------|--------------------------------|----------------------------|
+|   | argumento es válido   | 92% dijo "válido"              | **46% dijo "válido"**      |
+|   | argumento is inválido | **92% dijo "válido"**          | 8% dijo "válido"           |
+|   |                       |                                |                            |
+
+Oh estimados y estimadas, eso no es tán bueno. Aparentemente, cuando personas son presentadas con un fuente argumento que contradice nuestras creencias pre-existentes, nosotros lo encontramos muy dificil para incluso percibirlo como un argumento fuerte (personas solo lo hacen entonces el 46\% del tiempo). Incluso peor, cuando personas son presentadas con un argumentos débil que está de acuerdo con nuestros sesgos pre-existentes, casi nadie puede ver que el argumento es débil (personas dieron con so mal el 92\% de el tiempo!). En mis momentos más cinicos siento como que este hecho solamente explica el  95\% de lo que yo leo en internet.
+
+Si tu piensas sobre esto, no es como que esos datos son horriblamente malditos. Sobre todo personas lo hicieron mejor que el azar en compensar para sus propios sesgos, desde que sobre el 60\% de los juicios de las personas estaban correctos (tu esperarías 50\% por probabilidad.) Incluso entonces, si tu fueras un profesional ``evaluador de evidencia'', y alguien viniera y te ofreciera un herramienta mágica que mejora tus probabilidades de hacer una decisión correcta, de 60\% a (digamos) 95\%, probablemente saltarías ¿cierto?  Por su puesto lo harías. Agradecimente, nosotros de hecho tenemos herramiento que puede hacer esto. Pero no es mágica, es estadística. Entonces, es la razón #1 de por qué los científicos aman las estadísticas. Es solo *tan fácil* creer en lo queremos creer. Entonces, en lugar de eso, si queremos "Creer en los datos", vamos a necesitar un poco de ayuda para mantener nuestros sesgos personales bajo control. Eso es lo que la estadísica hace, ayuda a mantenernos honestos. 
+
+
+## El cuento de advertencia de la paradoja de Simpson
+
+Lo siguente es una historia real (¡Creo!). En 1973, la Universidad de California, 
+Berkeley tuvo una preocupación acerca de las admisiones de los estudiantes en sus cursos
+de postgrado. Especialmente, la cosa que causó el problema fue el desglose por genero 
+de sus admisiones, las cuales se veían como esto:
+
+
+|       | Número de postulantes | Porcentaje admitido |
+|-------|:--------------------:|:----------------:|
+|Hombres  |8442                  |46%               |
+|Mujeres|4321                  |35%               |
+
+... y estaban preocupados sobre ser ¡demandados! Dado que había cerca de 13,000 
+postulantes, una diferencia de 9% en las tasas de admisión entre hombres y mujeres es algo tan grande para ser una coincidencia. Datos muy conviencentes ¿Cierto?. Y si fuera a decirte que esos datos, de hecho,
+reflejan un débil sesgo en favor de las mujeres (¡Algo así!), tú probablemente pensarías que estaría loca o sexista.
+ 
+Extrañamente, esto efectivamente algo de verdad. Cuando la gente empezó a mirar más cuidadosamente 
+en los datos de admisión, esta conto una historía más bien diferente [@Bickel1975]. Especificamente, cuando vieron las bases de departamento
+por departamento, esto volvió a que la mayoría de los departamentos tenían ligeragmente un exito más
+alto en las postulantes femeninas que para los masculinos. La tabla abajo muestra que las figuras de admisión para los seis departamentos
+más grandes (con los nombres por departamento removidos por razones de privacidad):
+
+Extrañamente, esto efectivamente algo de verdad. Cuando la gente empezó a mirar más cuidadosamente 
+en los datos de admisión, esta conto una historía más bien diferente [@Bickel1975]. Especificamente, cuando vieron las bases de departamento
+por departamento, esto volvió a que la mayoría de los departamentos tenían  una tasa exito ligeramente *más alta* en las postulantes femeninas que para los masculinos. La tabla \@ref(tab:simpsontable) abajo muestra que las figuras de admisión para los seis departamentos
+más grandes (con los nombres por departamento removidos por razones de privacidad):
+ 
+
+```{r simpsontable, echo=FALSE, warning = FALSE}
+simpson <- cbind(c("A", "B", "C", "D", "E", "F"), 
+                 c(825,560,325,417,191,272), 
+                 c("62%","63%","37%","33%","28%","6%"),
+                 c(108,25,593,375,393,341),
+                 c("82%","68%","34%","35%","24%","7%"))
+
+knitr::kable(simpson, col.names = c("Departmento","Hombres Postulantes", "Porcentaje de hombres admitidos ", "Mujeres postulantes", "Porcentaje de mujeres admitidas"), align="c", caption = "Figuras de admisión para los seis departamentos más grandes según género")
+```
+
+¡Notablemente, la mayoría de los departamentos tiene una más alta tasa de admisión 
+para las mujer que para los hombres! Pese a que la tasa global de admisiones a traves
+de la la universidad fue más bajo para las mujeres que para los hombres. ¿Cómp puede ser esto?
+¿Cómo pueden ser ambas afirmarciones verdaderas al mismo tiempo?
+
+Aqui va lo que está pasando. Primeramente, nota que los departamentos *no* son
+iguales entre ellos en terminos de sus porcentajes de admisión: algunos departamentos
+(ej. A, B) tendieron a admitir un porcentaje alto de postulantes calificados, mientras
+que otros departamentos (ej. F) tendieron a rechazar la mayoría de los candidatos, incluso si ellos eran de alta calidad. Entonces, entre los seis departamentos mostrados anteriormente, nota que el departamento A es el más generoso
+seguido por el B, C, D, E y F en ese orden. Siguiente, nota que hombres y mujeres tendieron a aplicar a diferentes departamentos.
+Si ordenamos  los departamentos en terminos del total de numero de postulantes hombres, obtenemos que **A**>**B**>D>C>F>E (los departametos 
+"fáciles" están en negrita). En el total, los hombres tendieron a aplicar a los departamentos que tenían más altas tasas de admisión.
+Ahora acompara esto con cómo las postulantes mujeres se distribuyeron. Clasificando los departamentos en terminos de el número total postulantes
+mujeres se produce un orden muy diferente C>E>D>F>**A**>**B**. En otras palabras, lo que estos datos parecen estar sugiriendo es que las postulantes
+mujeres tienden a aplicar en los departamentos más "difíciles". Y de hecho, si miramos la figura 1.1, vemos que esta tendencia es sistemática,
+y más llamativa. Este efecto es conocido como **La paradoja de Simpson**, no es común, pero pasa en la vida real
+, y la mayoría de las personas están muy sorprendidas cuando la encuentran por primera vez, 
+y mucha gente rechaza incluso a creer que es real. Es muy real. Y mientras hay un montón de lecciones muy sútiles enterradas ahí,
+yo quiero usarla para destacar un punto mucho más importante: hacer investigación es difícil, y hay un **montón** de trampas sútiles y 
+contra-intuitivas en espera por incautas e incautos. Esa es la razón **#2** por la cuál los científicos aman las estadísticas, 
+y el porqué métodos de investigación. Porque la ciencia es difícil y la verdad está a veces oculta astutamente en los rincones y gritas de
+datos complejos. 
+
+
+```{r berkeley, fig.cap=" Datos de admisión en la universidad de Berkeley (1973). Esta figura grafíca las tasas de admisión para los 85 departamente que tenian al menos una mujer postulante, como una función del porcentaje de postulantes que eran mujeres. El gráfico es un redibujo de la Figura 1 de @Bickel1975. Circulos grafícan departamento con más de 40 postulantes; el área del circulo es proporcional al número total de postulantes. Las cruces grafícan departamentos con menos de 40 postulantes.", echo=FALSE}
+
+source(file = file.path("bookdown", "scripts", "ekothe_plotberkeley.R"))
+
+```
+
+
+Antes de dejar este tema por completo, quiero señalar otra cosa realmente crítica que a menudo se pasa por alto en una clase de métodos de investigación. La estadística sólo resuelve una parte del problema. Recuerden que empezamos todo esto con la preocupación de que los procesos de admisión de Berkeley pudieran estar injustamente sesgados contra las mujeres solicitantes. Cuando miramos los datos "agregados", parecía que la universidad estaba discriminando a las mujeres, pero cuando "desagregamos" y miramos el comportamiento individual de todos los departamentos, resultó que los departamentos reales estaban, si acaso, ligeramente sesgados a favor de las mujeres. El sesgo de género en el total de admisiones fue causado por el hecho de que las mujeres tendían a auto-seleccionarse para los departamentos más difíciles.  Desde una perspectiva legal, eso probablemente quedaría despejado para la universidad Las admisiones de posgrado se determinan a nivel de cada departamento (y hay buenas razones para ello), y a nivel de cada departamento, las decisiones son más o menos imparciales (el débil sesgo a favor de las mujeres a ese nivel es pequeño, y no es consistente en todos los departamentos). Dado que la universidad no puede dictar a qué departamentos elige la gente para presentar su solicitud, y la toma de decisiones tiene lugar a nivel de departamento, difícilmente se le puede responsabilizar por cualquier sesgo que esas elecciones produzcan. 
+
+
+Esa fue la base de mis comentarios, algo simplistas, de antes, pero esa no es exactamente la historia completa, ¿verdad? Después de todo, si estamos interesados en esto desde una perspectiva más sociológica y psicológica, podríamos preguntarnos *por qué* hay tan fuertes diferencias de género en las postulaciones. ¿Por qué los hombres tienden a postular a la ingeniería más a menudo que las mujeres, y por qué esto se invierte para el departamento de Inglés? ¿Y por qué los departamentos que tienden a tener un sesgo de aplicación femenina tienden a tener tasas de admisión generales más bajas que los departamentos que tienen un sesgo de aplicación masculina? ¿No podría esto reflejar todavía un sesgo de género, aunque cada departamento es en sí mismo imparcial? Puede ser. Supongamos, hipotéticamente, que los hombres prefieren aplicar a las "ciencias duras" y las mujeres a las "humanidades". Y supongamos además que la razón por la que los departamentos de humanidades tienen bajas tasas de admisión es porque el gobierno no quiere financiar las humanidades (los puestos de doctorado, por ejemplo, suelen estar vinculados a proyectos de investigación financiados por el gobierno). ¿Constituye esto un sesgo de género? ¿O simplemente una visión poco iluminada del valor de las humanidades? ¿Qué pasa si alguien de alto nivel en el gobierno corta los fondos para las humanidades porque siente que las humanidades son "cosas de chicas inútiles"? Eso parece un muy * flagrante * sesgo de género. Nada de esto cae dentro del ámbito de las estadísticas, pero es importante para el proyecto de investigación. Si estás interesado en los efectos estructurales generales de los sutiles sesgos de género, entonces probablemente quieras mirar *ambos*, los datos agregados y desagregados. Si estás interesado en el proceso de toma de decisiones en Berkeley, entonces probablemente sólo te interesen los datos desagregados. 
+
+
+En resumen, hay muchas preguntas críticas que no se pueden responder con estadísticas, pero las respuestas a esas preguntas tendrán un enorme impacto en la forma de analizar e interpretar los datos. Y esta es la razón por la que siempre debes pensar en la estadística como una *herramienta* para ayudarte a conocer tus datos, ni más ni menos. Es una herramienta poderosa para ese fin, pero no hay sustituto para el pensamiento cuidadoso.
+
+
+## Estadística en psicología 
+
+Espero que lo discutido arriba ayude a explicar porque la ciencia en general está enfocada en estadísticas. Pero suponiendo que tienes un montón de preguntas sobre qué rol juega la estadística en la psicología y especialmente porque tantas clases de psicología da tantas clases refiriéndose a estadísticas. Entonces aquí va mi intento por responder algunas de ellas...
+
+
+-**¿Por qué la psicología tiene tanta estadística? **
+
+Para hablar con perfecta honestidad, hay pocas razones, algunas de las cuales son mejores que otras. La razón más importante es que la psicología es una ciencia estadística. Lo que quiero decir es que las “cosas” que estudiamos son _personas_. Personas reales, complicadas, gloriosamente confusas y   exasperadamente perversas. Las “cosas” de la física incluyen objetos como electrones, y mientras haya otro tipo de complejidades que aparecen en física, los electrones no tienen sus propias mentes. Estos no tienen opiniones, ni difieren de cada otro en maneras extrañas y arbitrarias, no se aburren a la mitad de un experimento, ni tampoco se enojan y deliberadamente intentan sabotear los datos (¡no es que alguna vez haya hecho eso!). en un nivel fundamental la psicología es más difícil que la física [^5]. Básicamente enseñamos estadística a psicólogos porque necesitas ser mejor en estadística que los físicos. Hay de hecho un dicho usado a veces en física, para el efecto de que “si tu experimento necesita estadística, necesitas un mejor experimento”. Ellos tienen el lujo de decir eso porque su objeto de estudio es patéticamente simple en comparación con el basto enredo con el que están confrontados los científicos sociales. Y esto no es solo para la psicología. La mayoría de las ciencias sociales están desesperadamente confiada en las estadísticas. No porque hagamos malos experimentos, sino que porque tomamos un problema muy duro de resolver. Te enseñamos estadísticas, porque realmente, realmente las necesitas.
+
+ 
+
+-**¿No puede alguien más hacer las estadísticas?**
+
+En alguna medida, pero no completamente. Es cierto que no necesitas convertirte 
+en alguien entrenado completamente en estadístida, pero necesitas alcanzar cierto 
+nivel de competencia estadística. En mi visión, hay tres razones por las que cada 
+psicóloga y psicólogo debería ser capaz de hacer estadísticas básicas:
+
+-En primer lugar, hay una razón fundamental: La estadística está profundamenta 
+entrelazada con el diseño de investigación. Si tú quieres ser bueno diseñando 
+estudios psicológicos, tu necesitas al menos entender las bases de la estadística.
+
+-En segundo lugar, si tu quieres ser buena en el area de investigación en psicología,
+entonces necesitas ser capaz de enter la literatura psicológica. ¿Cierto?
+Pero casi cada paper en la literatura psicológica reporta resultados de análisis 
+estadísticos. Entonces, si realmente quieres entender la psicología, necesita ser capaz
+de entender lo que otras personas hicieron con sus datos. Y eso significa entender
+una cierta cantidad de estadísticas.
+
+-En tercer lugar, hay un problema práctico grande con ser dependiente de otras 
+personas para hacer todas tus estadísticas: Análisis estadísticos son *costosos*.
+Si estás alguna vez aburrido y quierer echar una mirada a cuánto gasta el gobierno 
+Australiano pagando a universidades, notaras algo interesando: Estadística es designada
+como una "prioridad nacional". Esto es porque hay un defict enorme  de estadísticos 
+ahi afuera. Entonces, de tu perspectiva como investigador en psicología ¡las leyes 
+de oferta y demandas no están exactamente de tu lado aquí!. Como resultado, 
+en casi cualquier situatión real de la vida donde tu quieres hacer investigación
+psicológica, los hechos crueles serán que no tendrás suficiente dinero para 
+pagar a un estadístico. Entonces la economía de la situación significa que tienes
+que ser muy auto-suficiente.
+
+Nota que un monton de esas razón generalizan más alla de los investigadores. 
+Si quieres ser un psicologo que no investiga e interviene, y estar en lo más actualizado 
+de tu campo, ayuda ser capaz de leer literatura científica la cual se basa fuertemente en 
+estadísticas.
+
+ **No me importan los empleos, la investigación o trabajo clínico. ¿Necesito estadística?**
+De acuerdo, ahora solo estás jugando conmigo. Aún así, creo que tambien debería importarte
+Estadisticas deberían importante en la misma manera que deberían importarle a *todos*.
+Vivimos en el siglo 21, y los datos están en *todas partes*. Francamente, dado el 
+mundo en el cual vivimos en estos días ¡ un conocimiento básico de estadística es demasiado cercano 
+a una herramienta de sobrevivencia! Lo cual es el tópico de la siguiente sección 
+
+## Estadísica la vida cotidana. 
+
+>*"Estamos ahogandonos en información, pero hambrientos por conocimiento"*
+>
+>-Varios autores, pero probablemente, el original John Naisbitt
+
+Cuando empecé a escribir las notas de mis clases tomé los 20 más recientes articulos 
+de noticias publicadas por el sitio Web de la ABC. De esos 20 articulos, se dio que 8 
+de ellos involucraban una discusión de algo que podría llamar un tema estadístico y 
+6 de esos hicieron un error. El error más común, si eres curioso, era fallar en reportar
+los datos de la linea base (ej. El articulo mencionaba que el 5% de las personas en una situación
+X tienen alguna caracteristica Y, ¡pero no dice cuando común es la caracteristica
+para todos los demás!). El punto que estoy intentando hacer aquí no es que los periodistas son málos 
+en estadística ( pero a que casi siempre lo son), es que un conocimiento básico en estadística 
+es de mucha ayuda para intentar entender cuando alguien más estadá haciendo un error o incluso
+mintiendote. De hecho, una las cosas más grandes que un conocimiento en estadística te hace es que 
+te causa que enojo por noticias e internet de una manera mucho más frecuente que la normal. 
+Puedes encontrar un buen ejemplo de esto en la Seccción 4.1.5. En posteriores versiones de este libro, 
+intentaré incluir más anecdotas a esas lineas. 
+
+## Hay más métodos de investigación que estadísticas. 
+
+Hasta ahora, la mayor parte de lo que he hablado es sobre estadísticas, y entonces serías perdonado por pensar que las estadística es todo
+lo que me importa sobre la vida. Para ser justa, no estarías muy equivocado, pero la metodología de investigación es un 
+concepto más ampli que la estadísticas. Entonces la mayoria de los cursos de métodos de investigación cubren un montón de temas
+que se relacionan mucho más a lo pragmátrico de los diseños de investigación, y en particular los problemas con los que te encontrarás cuando intentes 
+hacer investigación con humanos. Sin embargo, sobre el 99% de los temores de los estudiantes se relacionan con la parte estadística del curso,
+entonces por eso es que me he enfocado en la estadística en esta discusión, y esperanzadoramente, te he convencid que la estadística importa,
+ y más relevante aun, es que no tienen que ser temidas. Habiendo dicho eso, es muy típico para clases de introductorias en metodos de investigación ser muy 
+ pesados en estadística. Esto no es (usualmente) porque los y las docentes sean personas malévolas. Muy al contrario, de hecho.
+ Clases introductorias se enfocan un monton en estadísticas porque tu casi siempre encontrandote a ti misma necesitando estadísticas antes que necesitas otro 
+ entrenamiento en métodos de investigación. ¿Por qué? Porque casi todas tus taeas en otras clases se sustentarán en entrenamiento estadístico,
+  en mayor medida que lo que necesitan de otras herramientas metodológicas. No es común para tareas de pregrado que diseñes tu propio estudio
+  desde cero (en tal caso, necesitarás saber un monton sobre diseños de investigación), pero es común que las tareas que te den te pidan analizar e interpretar datos
+  que fueron recolectados en un estudio que alguien más diseño ( en tal caso tu necesitas estadística). En ese sentido, desde la perspectiva
+  de permitirte hacerlo bien en todas tus otras clases, la estadística es más urgente.
+  
+  Pero nota que **"urgente"** es diferente de **"importante"** -ambas importan. Realmente quiero enfatizar que los diseños de investigación es tan importante como el análisis 
+  de datos, y este libro hace gastar un justa cantidad de tiempo en aquello. Sin embargo, mientras estadísticas tienen un tipo de universalidad
+ , y provee un set de herramientas centrales que son útiles para la mayoría de tipos de investigación psicológica,  el lado de los métodos de investigación
+ no es tan universal. Hay muchos principios generales que cada uno deberia pensar, pero un monton de diseños de investigación son muy ideosincráticos,
+ y específicos en el área de investigación en la cual te quieres involucrar. En la medida de los detalles que importan, esos detalles no son mostrados 
+ en clases introductorias de métodos de investigación y estadísticas. 
