@@ -1,13 +1,13 @@
 --- 
-title: "Learning statistics with R: A tutorial for psychology students and other beginners. (Version 0.6.1)"
-author: "Danielle Navarro (bookdown translation: Emily Kothe)"
+title: "Aprendiendo estadísticas con R: Un tutorial para estudiantes de psicología y principiantes.(Version 0.6.1)"
+author: "Danielle Navarro (bookdown translation: Emily Kothe). Traductores versión en Español, Gabriel A. Gonzalez M. y Natalia Escobar"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: ["refs.bib", "packages.bib"]
 biblio-style: apalike
 link-citations: yes
-description: "*Learning Statistics with R* covers the contents of an introductory statistics class, as typically taught to undergraduate psychology students, focusing on the use of the R statistical software."
+description: "*Aprendiendo estadísticas con R* cubre el contenido de una clase introductoria de estadística, como típicamente se enseña a los estudiantes de psicología de pregrado, centrándose en el uso del software estadístico R
 output:
   bookdown::gitbook:
     css: style.css
