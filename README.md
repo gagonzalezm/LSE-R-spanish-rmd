@@ -13,7 +13,7 @@ más comunes de la cultura hispano-hablante. Uno de los traductores (quien les e
 
 -Las notas al pie serán algunas traducciones de las notas originales, y otras de los traductores. En el segundo caso será indicado explicitamente.
 
--Dudas, comentarios o sugerencias pueden escribir a gagonzalez1@uc.cl o escribirme en twitter @ Gabriel00602805. Soy Psicólogo y Magister en Epidemiologia, no soy de profesion traductor o inteprete ni tampoco he vivido en paises de habla inglesa, por eso sugerencias en alguna traducción o interpretación serán bien recibidas. Mi motivación
+-Dudas, comentarios o sugerencias pueden escribir a gagonzalez1@uc.cl o escribirme en twitter @ Gabriel00602805. Soy Psicólogo y Magister en Epidemiologia, no soy de profesion traductor o inteprete ni tampoco he vivido en paises de habla inglesa, por eso sugerencias en alguna traducción o interpretación serán bien recibidas. Mi motivación inicial
 es poder elaborar un material para mis estudiantes, pero tambien para todo el resto de personas de habla-hispana en aprender sobre estadistica en psicología.
 
 Gabriel A. González Medina
