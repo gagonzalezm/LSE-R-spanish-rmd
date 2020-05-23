@@ -33,18 +33,18 @@ projecthome <- here::here()
 
 *Learning Statistics with R* covers the contents of an introductory statistics class, as typically taught to undergraduate psychology students, focusing on the use of the R statistical software. The book discusses how to get started in R as well as giving an introduction to data manipulation and writing scripts. From a statistical perspective, the book discusses descriptive statistics and graphing ﬁrst, followed by chapters on probability theory, sampling and estimation, and null hypothesis testing. After introducing the theory, the book covers the analysis of contingency tables, t-tests, ANOVAs and regression. Bayesian statistics are covered at the end of the book.
 
-# Licensing{-}
+# Licencia{-}
 
 This book is published under a Creative Commons BY-SA license (CC BY-SA) version 4.0. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA.
 https://creativecommons.org/licenses/by-sa/4.0/
 
-# Dedication{-}
+# Dedicatoria{-}
 
 *This book was brought to you today by the letter ‘R’.*
 
-# Preface{-}
+# Prefacio{-}
 
-## Nota de la traducción al español
+## Prefacio de traducción al español
 
 -Este documento es una traducción del libro de Navarro DJ. Learning Statistics with R. en su última versión.
 
